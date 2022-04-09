@@ -8,7 +8,7 @@
             </a>
             <div class="btn-group" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-dark" disabled="disabled">admin -
-                    <?php echo $nombreUsuario ?></button>
+                    <!---<?php //echo $nombreUsuario ?>--></button>
                 <a type="button" href="http://utnweb.com/web2/Proyecto_1_ISW613/Administrador/ceCategoria.php"
                     class="btn btn-dark">Categories</a>
                 <form action="logout.php" method="post">

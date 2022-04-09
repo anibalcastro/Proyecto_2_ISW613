@@ -97,4 +97,8 @@
         margin-left: 20px;
         margin-top: 10px;
     }
+
+    a{
+        color: white;
+    }
 </style>
