@@ -13,6 +13,7 @@ class User extends BaseController{
 
     public function register(){
         $data['pageTitle'] = 'Register';
+        //$data['Titulo'] = 'Prueba 1';
         $content = view('user/register/register');
         return parent::renderTemplateUser($content,$data);
     }

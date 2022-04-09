@@ -46,3 +46,47 @@ CRITICAL - 2022-04-09 13:30:29 --> Call to undefined method CodeIgniter\Controll
 #2 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2022-04-09 16:22:49 --> Undefined variable $Titulo
+#0 C:\utnweb\web2\Proyecto_2_ISW613\app\Views\user\register\register.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\utnweb\\web2\\...', 4)
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(210): include('C:\\utnweb\\web2\\...')
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\utnweb\web2\Proyecto_2_ISW613\system\Common.php(1089): CodeIgniter\View\View->render('user/register/r...', Array, true)
+#4 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\User.php(17): view('user/register/r...')
+#5 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(832): App\Controllers\User->register()
+#6 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-09 16:23:25 --> Undefined variable $Titulo
+#0 C:\utnweb\web2\Proyecto_2_ISW613\app\Views\user\register\register.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\utnweb\\web2\\...', 4)
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(210): include('C:\\utnweb\\web2\\...')
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\utnweb\web2\Proyecto_2_ISW613\system\Common.php(1089): CodeIgniter\View\View->render('user/register/r...', Array, true)
+#4 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\User.php(17): view('user/register/r...')
+#5 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(832): App\Controllers\User->register()
+#6 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-09 16:23:27 --> Undefined variable $Titulo
+#0 C:\utnweb\web2\Proyecto_2_ISW613\app\Views\user\register\register.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\utnweb\\web2\\...', 4)
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(210): include('C:\\utnweb\\web2\\...')
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\utnweb\web2\Proyecto_2_ISW613\system\Common.php(1089): CodeIgniter\View\View->render('user/register/r...', Array, true)
+#4 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\User.php(17): view('user/register/r...')
+#5 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(832): App\Controllers\User->register()
+#6 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-09 16:23:34 --> Undefined variable $Titulo
+#0 C:\utnweb\web2\Proyecto_2_ISW613\app\Views\user\register\register.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\utnweb\\web2\\...', 4)
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(210): include('C:\\utnweb\\web2\\...')
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\utnweb\web2\Proyecto_2_ISW613\system\Common.php(1089): CodeIgniter\View\View->render('user/register/r...', Array, true)
+#4 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\User.php(17): view('user/register/r...')
+#5 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(832): App\Controllers\User->register()
+#6 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
