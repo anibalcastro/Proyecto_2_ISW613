@@ -56,4 +56,11 @@ class BaseController extends Controller
         echo $view;
         echo view('share/footer');
     }
+
+    public function renderTemplateAdmin($view, $parameters){
+        echo view('shareAdmin/headAdmin', $parameters);
+        echo view('shareAdmin/menuAdmin');
+        echo $view;
+        echo view('share/footer');
+    }
 }
