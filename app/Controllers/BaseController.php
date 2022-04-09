@@ -59,7 +59,7 @@ class BaseController extends Controller
 
     public function renderTemplateAdmin($view, $parameters){
         echo view('shareAdmin/headAdmin', $parameters);
-        echo view('shareAdmin/menuAdmin');
+        echo view('shareAdmin/menuAdmin', $parameters );
         echo $view;
         echo view('share/footer');
     }

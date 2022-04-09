@@ -179,3 +179,51 @@ CRITICAL - 2022-04-09 17:13:32 --> Undefined variable $nombreUsuario
 #8 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #9 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #10 {main}
+CRITICAL - 2022-04-09 17:30:54 --> Undefined variable $user
+#0 C:\utnweb\web2\Proyecto_2_ISW613\app\Views\shareAdmin\menuAdmin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\utnweb\\web2\\...', 10)
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(210): include('C:\\utnweb\\web2\\...')
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\utnweb\web2\Proyecto_2_ISW613\system\Common.php(1089): CodeIgniter\View\View->render('shareAdmin/menu...', Array, true)
+#4 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\BaseController.php(62): view('shareAdmin/menu...', Array)
+#5 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\Admin.php(11): App\Controllers\BaseController->renderTemplateAdmin('<div class="jum...', Array)
+#6 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(832): App\Controllers\Admin->dashboard()
+#7 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-09 17:31:48 --> Undefined variable $user
+#0 C:\utnweb\web2\Proyecto_2_ISW613\app\Views\shareAdmin\menuAdmin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\utnweb\\web2\\...', 10)
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(210): include('C:\\utnweb\\web2\\...')
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\utnweb\web2\Proyecto_2_ISW613\system\Common.php(1089): CodeIgniter\View\View->render('shareAdmin/menu...', Array, true)
+#4 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\BaseController.php(62): view('shareAdmin/menu...', Array)
+#5 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\Admin.php(11): App\Controllers\BaseController->renderTemplateAdmin('<div class="jum...', Array)
+#6 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(832): App\Controllers\Admin->dashboard()
+#7 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-09 17:35:45 --> Undefined variable $user
+#0 C:\utnweb\web2\Proyecto_2_ISW613\app\Views\shareAdmin\menuAdmin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\utnweb\\web2\\...', 10)
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(210): include('C:\\utnweb\\web2\\...')
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\utnweb\web2\Proyecto_2_ISW613\system\Common.php(1089): CodeIgniter\View\View->render('shareAdmin/menu...', Array, true)
+#4 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\BaseController.php(62): view('shareAdmin/menu...', Array)
+#5 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\Admin.php(11): App\Controllers\BaseController->renderTemplateAdmin('<div class="jum...', Array)
+#6 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(832): App\Controllers\Admin->dashboard()
+#7 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-09 17:41:08 --> Undefined variable $user
+#0 C:\utnweb\web2\Proyecto_2_ISW613\app\Views\shareAdmin\menuAdmin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\utnweb\\web2\\...', 10)
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(210): include('C:\\utnweb\\web2\\...')
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\utnweb\web2\Proyecto_2_ISW613\system\Common.php(1089): CodeIgniter\View\View->render('shareAdmin/menu...', Array, true)
+#4 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\BaseController.php(62): view('shareAdmin/menu...', Array)
+#5 C:\utnweb\web2\Proyecto_2_ISW613\app\Controllers\Admin.php(11): App\Controllers\BaseController->renderTemplateAdmin('<div class="jum...', Array)
+#6 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(832): App\Controllers\Admin->dashboard()
+#7 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
