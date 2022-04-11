@@ -63,4 +63,11 @@ class BaseController extends Controller
         echo $view;
         echo view('share/footer');
     }
+
+    public function renderTemplateNews($view, $parameters){
+        echo view('shareNews/headNews', $parameters);
+        echo view('shareNews/menuNews', $parameters );
+        echo $view;
+        echo view('share/footer');
+    }
 }

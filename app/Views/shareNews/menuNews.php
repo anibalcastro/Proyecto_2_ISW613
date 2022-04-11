@@ -1,0 +1,23 @@
+//User 
+<body>
+    <header id="encabezado">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand"
+                href="http://utnweb.com/web2/Proyecto_1_ISW613/Usuario/principal.php?status=success&message=inicio">
+                <div class="header">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Telefe_Noticias_logo_2_%282018%29.png"
+                        id="logo_empresa" alt="icon" srcset="logo icon">
+            </a>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark" disabled="disabled"><?=$user?></button>
+                <a type="button" href="http://utnweb.com/web2/Proyecto_1_ISW613/Usuario/sources.php"
+                    class="btn btn-dark">News Source</a>
+                <form action="logout.php" method="post">
+                    <button type="submit" class="btn btn-dark">Log out</button>
+                </form>
+
+            </div>
+            </div>
+
+        </nav>
+    </header>
