@@ -4,6 +4,14 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 
 class User extends BaseController{
+
+    private $userModel;
+
+    public function __construct()
+    {
+      $this->userModel = new UsersModel();
+    }
+
     
     public function login(){
         $data['pageTitle'] = 'Login';
@@ -16,5 +24,15 @@ class User extends BaseController{
         //$data['Titulo'] = 'Prueba 1';
         $content = view('user/register/register');
         return parent::renderTemplateUser($content,$data);
+    }
+
+    public function validateLogin(){
+
+       $email = $this->request->getPost('emailU');
+       $password = $this->request->getPost('passwordU');
+
+
+
+       
     }
 }

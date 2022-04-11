@@ -7,6 +7,16 @@ class News extends BaseController{
 
     public $nameUser;
 
+    private $newModel;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+      $this->newModel = new NewsModel();
+    }
+
     public function login(){
         $data['pageTitle'] = 'Login';
         $content = view('user/login/login');

@@ -4,6 +4,16 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 
 class Admin extends BaseController{
+
+    private $adminModel;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+      $this->adminModel = new AdminModel();
+    }
     
     public function dashboard(){
         $data = [
