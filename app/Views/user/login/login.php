@@ -10,7 +10,7 @@
       </div>
 
       <!-- Login Form -->
-      <form action="lo_index.php" method="POST">
+      <form action="/User/validateLogin" method="POST">
         <input type="text" id="email" class="fadeIn second" name="emailU" placeholder="Email" required="true">
         <input type="password" id="password" class="fadeIn third" name="passwordU" placeholder="Password" required="true">
         <input type="submit" class="fadeIn fourth" value="Log In">

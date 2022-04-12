@@ -5,12 +5,6 @@ use CodeIgniter\Controller;
 
 class User extends BaseController{
 
-    private $userModel;
-
-    public function __construct()
-    {
-      $this->userModel = new UsersModel();
-    }
 
     
     public function login(){
@@ -31,6 +25,10 @@ class User extends BaseController{
        //https://blog.trescomatres.com/2021/04/codeigniter-4-tratar-parametros-post/
        $email = $this->request->getPost('emailU');
        $password = $this->request->getPost('passwordU');
+
+       if ($email === 'anibaljafethcastro@gmail.com' && $password === 1234){
+           href ('Location: google.com');
+       }
 
 
 

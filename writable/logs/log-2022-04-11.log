@@ -1,0 +1,18 @@
+CRITICAL - 2022-04-11 23:02:05 --> Class "App\Controllers\UsersModel" not found
+#0 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 23:02:11 --> Class "App\Controllers\UsersModel" not found
+#0 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 23:04:17 --> Class "App\Controllers\UsersModel" not found
+#0 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#1 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\utnweb\web2\Proyecto_2_ISW613\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\utnweb\web2\Proyecto_2_ISW613\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

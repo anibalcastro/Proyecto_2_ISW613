@@ -2,24 +2,15 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
+use App\Models\News;
 
-class News extends BaseController{
-
-    public $nameUser;
-
-    private $newModel;
-
-    /**
-     * Constructor
-     */
-    public function __construct()
-    {
-      $this->newModel = new NewsModel();
-    }
+class NewsC extends Controller{
 
     public function login(){
         $data['pageTitle'] = 'Login';
         $content = view('user/login/login');
+
+        //Arreglar direcciones
         return parent::renderTemplateUser($content,$data);
     }
     
@@ -48,6 +39,5 @@ class News extends BaseController{
             $this->nameUser = $user['firstName'];
         }
     }
-
 
 }

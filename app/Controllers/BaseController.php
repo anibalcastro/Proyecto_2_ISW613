@@ -49,25 +49,5 @@ class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
-
-    public function renderTemplateUser($view, $parameters){
-        echo view('shareUser/headUser',$parameters);
-        echo view('shareUser/menuUser');
-        echo $view;
-        echo view('share/footer');
-    }
-
-    public function renderTemplateAdmin($view, $parameters){
-        echo view('shareAdmin/headAdmin', $parameters);
-        echo view('shareAdmin/menuAdmin', $parameters );
-        echo $view;
-        echo view('share/footer');
-    }
-
-    public function renderTemplateNews($view, $parameters){
-        echo view('shareNews/headNews', $parameters);
-        echo view('shareNews/menuNews', $parameters );
-        echo $view;
-        echo view('share/footer');
-    }
+    
 }
